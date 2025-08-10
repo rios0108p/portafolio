@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dennis Ríos Palacios | Ingeniero de Software</title>
+    <meta name="description" content="Portafolio profesional de Dennis Ríos Palacios, Ingeniero de Software Full-Stack especializado en Laravel, Angular y Flutter">
+    <meta name="keywords" content="ingeniero de software, desarrollador full-stack, Laravel, Angular, Flutter, portafolio">
+    <meta name="author" content="Dennis Ríos Palacios">
+    
+    <title>Dennis Ríos Palacios | Ingeniero de Software Full-Stack</title>
+    
+    <!-- Preload de fuentes y recursos críticos -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="css/style.css" as="style">
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Dennis Ríos Palacios | Ingeniero de Software Full-Stack">
+    <meta property="og:description" content="Portafolio profesional de desarrollo de software con experiencia en Laravel, Angular y Flutter">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dennisrios.dev">
+    <meta property="og:image" content="https://dennisrios.dev/assets/images/yo.jpg">
 </head>
 <body>
     <!-- Navbar -->
@@ -16,54 +36,248 @@
             <ul class="nav-links">
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#about">Sobre Mí</a></li>
-                <li><a href="#experience">Experiencia</a></li>
                 <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#experience">Experiencia</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
-            <div class="burger">
+            <div class="burger" aria-label="Menú de navegación">
                 <i class="fas fa-bars"></i>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
+   <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-name">
             <h1>Dennis Tonatiuh <span>Ríos Palacios</span></h1>
             <h2>Ingeniero de Software Full-Stack</h2>
-            <p>Desarrollo soluciones escalables con Laravel, Angular y Flutter.</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn-primary">Contáctame</a>
-                <a href="#" class="btn-secondary">Descargar CV</a>
-            </div>
         </div>
-        <div class="hero-img">
-            <img src="assets/profile.jpg" alt="Dennis Ríos">
+        <p>Desarrollo soluciones, enfocado en experiencia de usuario y rendimiento óptimo.</p>
+        <div class="hero-buttons">
+            <a href="#contact" class="btn-secondary">Contacto</a>
+            <a href="assets/cv/CV-Dennis-Rios.pdf" download="CV-Dennis-Rios" class="btn-primary">Descargar CV</a>
         </div>
-    </section>
+        <div class="hero-social">
+            <a href="https://www.linkedin.com/in/dennis-rios-palacios-68107426a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/rios0108p" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/529988515226" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+    <div class="hero-img">
+        <img src="assets/images/yo.jpg" alt="Dennis Ríos - Ingeniero de Software" loading="lazy">
+    </div>
+</section>
 
     <!-- Sobre Mí -->
     <section id="about" class="about">
         <div class="container">
             <h2>Sobre <span>Mí</span></h2>
             <div class="about-content">
-                <p>
-                    Estudiante de <strong>Ingeniería en Software</strong> (9° cuatrimestre) con experiencia en desarrollo web y móvil. 
-                    Especializado en crear sistemas eficientes con tecnologías como <strong>PHP (Laravel)</strong>, <strong>Angular</strong> y <strong>Flutter</strong>.
-                </p>
+                <div class="about-text">
+                    <h3>Perfil Profesional</h3>
+                    <p>
+                        Estudiante de <strong>Ingeniería en Software</strong> (9° cuatrimestre) en la Universidad Politécnica de Bacalar (2022-2025). 
+                        Desarrollador con experiencia práctica en diseño, desarrollo y despliegue de soluciones tecnológicas, desde páginas web estáticas hasta sistemas de gestión completos.
+                    </p>
+                    <p>
+                        Mi trayectoria me ha permitido manejar todo el ciclo de vida del software, aplicando metodologías ágiles y manteniendo estándares de calidad tanto en código como en diseño.
+                    </p>
+                    
+                    <h3>Enfoque Profesional</h3>
+                    <ul class="focus-list">
+                        <li><i class="fas fa-check"></i> Desarrollo de aplicaciones web y móviles</li>
+                        <li><i class="fas fa-check"></i> Optimización de procesos</li>
+                        <li><i class="fas fa-check"></i> Diseño de experiencias de usuario</li>
+                        <li><i class="fas fa-check"></i> Escalabilidad de sistemas</li>
+                    </ul>
+                    
+                    <h3>Fortalezas Clave</h3>
+                    <div class="strengths-grid">
+                        <div class="strength-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Conversión de requerimientos</h4>
+                            <p>Transformo necesidades complejas en soluciones claras y funcionales</p>
+                        </div>
+                        <div class="strength-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <h4>Diseño y rendimiento</h4>
+                            <p>Integro interfaces atractivas con rendimiento óptimo</p>
+                        </div>
+                        <div class="strength-item">
+                            <i class="fas fa-expand"></i>
+                            <h4>Visión escalable</h4>
+                            <p>Diseño pensando en cómo crecerá el sistema a futuro</p>
+                        </div>
+                        <div class="strength-item">
+                            <i class="fas fa-file-alt"></i>
+                            <h4>Documentación</h4>
+                            <p>Estructuro proyectos para que sean fáciles de mantener</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="about-details">
                     <div class="detail-item">
-                        <h3>0+</h3>
-                        <p>Proyectos académicos</p>
+                        <h3>5+</h3>
+                        <p>Proyectos completados</p>
                     </div>
                     <div class="detail-item">
-                        <h3>0+</h3>
+                        <h3>2+</h3>
                         <p>Años de experiencia</p>
                     </div>
                     <div class="detail-item">
-                        <h3>0+</h3>
+                        <h3>15+</h3>
                         <p>Tecnologías dominadas</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>100%</h3>
+                        <p>Compromiso con la calidad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Mis <span>Habilidades</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item" data-skill="Angular" data-level="85">
+                            <i class="fab fa-angular"></i>
+                            <span>Angular</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="React" data-level="75">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="HTML5" data-level="90">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="CSS3" data-level="85">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="JavaScript" data-level="80">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Bootstrap" data-level="90">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Figma" data-level="70">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Tailwind" data-level="65">
+                            <i class="fab fa-tailwind"></i>
+                            <span>Tailwind</span>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item" data-skill="PHP" data-level="90">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Laravel" data-level="85">
+                            <i class="fab fa-laravel"></i>
+                            <span>Laravel</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Python" data-level="75">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Node.js" data-level="70">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="MySQL" data-level="85">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="PostgreSQL" data-level="80">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="SQLite" data-level="75">
+                            <i class="fas fa-database"></i>
+                            <span>SQLite</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Java" data-level="65">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-mobile-alt"></i> Móvil & Otros</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item" data-skill="Flutter" data-level="80">
+                            <i class="fab fa-flutter"></i>
+                            <span>Flutter</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Git" data-level="85">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="GitHub" data-level="80">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Linux" data-level="70">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Scrum" data-level="75">
+                            <i class="fas fa-scroll"></i>
+                            <span>Scrum</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Kanban" data-level="80">
+                            <i class="fas fa-tasks"></i>
+                            <span>Kanban</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Unity 2D" data-level="60">
+                            <i class="fab fa-unity"></i>
+                            <span>Unity 2D</span>
+                            <div class="skill-level"></div>
+                        </div>
+                        <div class="skill-item" data-skill="Chart.js" data-level="65">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Chart.js</span>
+                            <div class="skill-level"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,6 +301,7 @@
                             <li>Integración de roles de usuario (docente, coordinador, administrador)</li>
                             <li>Manejo de bases de datos MySQL para gestión de documentos</li>
                             <li>Desarrollo de funcionalidades de revisión con notificaciones automáticas</li>
+                            <li>Optimización del 70% en tiempos de revisión de documentos</li>
                         </ul>
                         <div class="tech-tags">
                             <span>Laravel</span>
@@ -97,99 +312,45 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Habilidades -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2>Mis <span>Habilidades</span></h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
-                    <div class="skill-grid">
-                        <div class="skill-item">
-                            <i class="fab fa-angular"></i>
-                            <span>Angular</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-react"></i>
-                            <span>React</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-html5"></i>
-                            <span>HTML5</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-css3-alt"></i>
-                            <span>CSS3</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-js"></i>
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-bootstrap"></i>
-                            <span>Bootstrap</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-server"></i> Backend</h3>
-                    <div class="skill-grid">
-                        <div class="skill-item">
-                            <i class="fab fa-php"></i>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollador Freelance</h3>
+                        <p>
+                            Desarrollo de aplicaciones web y móviles para clientes diversos, incluyendo sistemas de gestión y ecommerce.
+                        </p>
+                        <ul>
+                            <li>Creación de tienda virtual con pasarela de pagos y gestión de inventario</li>
+                            <li>Desarrollo de scripts en Python para automatización de procesos</li>
+                            <li>Sitios web personalizados con enfoque en experiencia de usuario</li>
+                            <li>Ingresos actuales: $1500 MXN semanales</li>
+                        </ul>
+                        <div class="tech-tags">
                             <span>PHP</span>
-                        </div>
-                        <div class="skill-item">
-                            <img src="assets/icons/laravel.svg" alt="Laravel" class="custom-icon">
-                            <span>Laravel</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-python"></i>
+                            <span>Flutter</span>
                             <span>Python</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-node"></i>
-                            <span>Node.js</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-database"></i>
+                            <span>JavaScript</span>
                             <span>MySQL</span>
                         </div>
-                        <div class="skill-item">
-                            <i class="fas fa-database"></i>
-                            <span>PostgreSQL</span>
-                        </div>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-mobile-alt"></i> Móvil & Otros</h3>
-                    <div class="skill-grid">
-                        <div class="skill-item">
-                            <img src="assets/icons/flutter.svg" alt="Flutter" class="custom-icon">
-                            <span>Flutter</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-git-alt"></i>
-                            <span>Git</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-github"></i>
-                            <span>GitHub</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-linux"></i>
-                            <span>Linux</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-scroll"></i>
-                            <span>Scrum</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-tasks"></i>
-                            <span>Kanban</span>
+                <div class="timeline-item">
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>Prácticas Profesionales - Empresa Local</h3>
+                        <p>
+                            Desarrollo de soluciones tecnológicas para pequeñas empresas en Bacalar.
+                        </p>
+                        <ul>
+                            <li>Creación de sitio web para negocio local con sistema de reservaciones</li>
+                            <li>Implementación de base de datos para gestión de clientes</li>
+                            <li>Capacitación al personal en el uso de sistemas desarrollados</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
                         </div>
                     </div>
                 </div>
@@ -203,10 +364,9 @@
             <h2>Mis <span>Proyectos</span></h2>
             <div class="projects-container">
                 <div class="project-card">
-                    <img src="assets/upb-project.jpg" alt="Sistema UPB">
                     <div class="project-info">
                         <h3>Sistema de Planeación Docente</h3>
-                        <p>Plataforma web para gestión de planes de clase con roles de usuario (docente, coordinador, administrador).</p>
+                        <p>Plataforma web para gestión de planes de clase con roles de usuario (docente, coordinador, administrador). Digitalización de la planeación académica y facilitación del seguimiento.</p>
                         <div class="tech-used">
                             <span>Laravel</span>
                             <span>Angular</span>
@@ -217,25 +377,70 @@
                             <i class="fas fa-trophy"></i>
                             <span>Optimización del 70% en tiempo de revisión de documentos</span>
                         </div>
-                        <a href="#" class="btn-primary">Ver Detalles</a>
+                        <div class="project-achievement">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Adaptación a múltiples formatos de carga y exportación</span>
+                        </div>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="assets/ganadero-app.jpg" alt="App Ganadera">
                     <div class="project-info">
-                        <h3>Sistema de Control Ganadero</h3>
-                        <p>App móvil para gestión de inventario, historial de vacunas y producción ganadera.</p>
+                        <h3>Sistema de Control Ganadero (GanaApp)</h3>
+                        <p>App móvil para gestión de inventario, historial de vacunas y producción ganadera. Digitalización del control de ganado, gastos e ingresos en ranchos.</p>
                         <div class="tech-used">
                             <span>Flutter</span>
                             <span>Dart</span>
-                            <span>Firebase</span>
-                            <span>BLOC</span>
+                            <span>SQLite</span>
+                            <span>PostgreSQL</span>
                         </div>
                         <div class="project-achievement">
                             <i class="fas fa-trophy"></i>
                             <span>Reducción del 56% en errores de registro manual</span>
                         </div>
-                        <a href="#" class="btn-primary">Ver Demo</a>
+                        <div class="project-achievement">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Modo offline con sincronización posterior</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Sistema de Gestión de Citas Médicas</h3>
+                        <p>Aplicación web para reducir tiempos de espera y mejorar la organización en clínicas pequeñas con registro de pacientes y médicos, y agenda de citas inteligente.</p>
+                        <div class="tech-used">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-achievement">
+                            <i class="fas fa-trophy"></i>
+                            <span>Validación cruzada para evitar solapamiento de horarios</span>
+                        </div>
+                        <div class="project-achievement">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Panel administrativo con estadísticas de uso</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>UPB Zone - Sistema tipo Classroom</h3>
+                        <p>Entorno virtual interno para la UPB que integra alumnos, docentes y coordinadores con subida de tareas, reportes y calendario académico.</p>
+                        <div class="tech-used">
+                            <span>Laravel</span>
+                            <span>React</span>
+                            <span>MySQL</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-achievement">
+                            <i class="fas fa-trophy"></i>
+                            <span>Diseño intuitivo optimizado para móviles</span>
+                        </div>
+                        <div class="project-achievement">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Evaluación de migración a Node.js para backend</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -245,37 +450,44 @@
     <!-- Contacto -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Contácta<span>me</span></h2>
-            <div class="contact-container">
-                <form>
-                    <div class="form-group">
-                        <input type="text" placeholder="Nombre" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Mensaje" required></textarea>
-                    </div>
-                    <button type="submit" class="btn-primary">Enviar Mensaje</button>
-                </form>
+            <h2>Información de <span>Contacto</span></h2>
+            <div class="contact-wrapper">
                 <div class="contact-info">
                     <div class="info-item">
                         <i class="fas fa-phone"></i>
-                        <p>+52 998 851 5226</p>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+52 998 851 5226</p>
+                        </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
-                        <p>dennisriospala@gmail.com</p>
+                        <div>
+                            <h4>Email</h4>
+                            <p>dennisriospala@gmail.com</p>
+                        </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
-                        <p>Quintana Roo, México</p>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Bacalar, Quintana Roo, México</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>Educación</h4>
+                            <p>Ingeniería en Software - UPB (2022-2025)</p>
+                        </div>
                     </div>
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/rios-palacios-dennis-68107426a" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <h4>Sígueme</h4>
+                        <div class="links">
+                            <a href="https://www.linkedin.com/in/dennis-rios-palacios-68107426a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/rios0108p" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://wa.me/529988515226" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -285,9 +497,40 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Dennis Ríos Palacios. Todos los derechos reservados.</p>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">Dennis Ríos</div>
+                    <p>Ingeniero de Software Full-Stack</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Sobre Mí</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#experience">Experiencia</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +52 998 851 5226</li>
+                        <li><i class="fas fa-envelope"></i> dennisriospala@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Dennis Ríos Palacios. Todos los derechos reservados.</p>
+            </div>
         </div>
     </footer>
+
+    <!-- Botón flotante para volver arriba -->
+    <a href="#home" class="back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </a>
 
     <script src="js/script.js"></script>
 </body>
